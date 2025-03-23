@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 body{
     display: flex;
@@ -11,16 +12,22 @@ body{
 
 .container{
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     align-items: center;
 }
 .about{
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 .doe{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+.donate-cards{
+    display: flex;
+    flex-direction: row;
 }
 .contact{
     display: flex;
@@ -30,8 +37,22 @@ body{
         flex-direction: row;
         justify-content: center;
     }
-.footer{
-    background-color: #208B4B;
-    margin: auto;
-    display: flex;
-width: 100%;}
+    .faq{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+div h1,div h3{
+    color: #124D2C;
+}
+div h2{
+    color: #91120e;
+    font-size: 1.5em;
+}
+p{
+    font-size:1rem;
+}
+.accordion{
+    width: 100%;
+}
