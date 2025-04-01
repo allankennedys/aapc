@@ -22,8 +22,8 @@ body{
    
     .img-header{
         width: 30%;
-        width: auto; /* Mantém a proporção da imagem */
-        height: auto; /* Deixa a altura ajustar-se de forma proporcional */
+        width: auto; 
+        height: auto; 
     }
     .h1 {
         width: 70%;
