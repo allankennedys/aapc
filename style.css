@@ -23,7 +23,11 @@ body{
     .img-header{
         width: 30%;
         width: auto; 
+<<<<<<< HEAD
         height: auto; 
+=======
+        height: auto;
+>>>>>>> 860b5ce (Alt Texts)
     }
     .h1 {
         width: 70%;
