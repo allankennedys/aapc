@@ -25,7 +25,8 @@ body{
     .img-header{
         width: 30%;
         width: auto; 
-        height: auto; 
+        height: auto;
+        margin: auto;
     }
     .h1 {
         width: 70%;
