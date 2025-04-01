@@ -23,11 +23,7 @@ body{
     .img-header{
         width: 30%;
         width: auto; 
-<<<<<<< HEAD
         height: auto; 
-=======
-        height: auto;
->>>>>>> 860b5ce (Alt Texts)
     }
     .h1 {
         width: 70%;
@@ -180,6 +176,10 @@ footer p{
 }
 
 @media screen and (max-width: 768px) {
+    body{
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
     .container{
         padding: 20px;
     }
