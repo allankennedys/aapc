@@ -19,17 +19,9 @@ body{
         background-color: #439BCF;
         display: flex;
         align-items: center; 
-        justify-content: stretch;
-    }
-   
-    .img-header{
-        width: 30%;
-        width: auto; 
-        height: auto;
-        margin: auto;
+        justify-content: space-around;
     }
     .h1 {
-        width: 70%;
         text-align: center;
         position: static;
     }
@@ -43,7 +35,13 @@ body{
 .h1 a{
     background-color: white;
     border: none;
-    color: #439BCF;
+    color: #096e37;
+}
+.carousel-home{
+    width: 85%;
+}
+.carousel-inner img{
+    border-radius: 12px;
 }
 #logo{
     max-width: 50px;
