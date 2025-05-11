@@ -10,16 +10,23 @@ body{
 
     
    }
+   .col{
+    padding-bottom: 0 !important;
+    padding-top: 2% !important; 
+}
    #meuContainer{
     margin-top: 70px;
         width: 100vw;
-        max-width: 100vw;
-        margin-left: calc(-50vw + 50%);
+        max-width: 100wh;
         height: 100vh;
         background-color: #039640;
         display: flex;
         align-items: center; 
-        justify-content: space-around;
+        justify-content: space-evenly; 
+        flex-wrap: nowrap;
+        align-self: center;
+        padding: 50px;
+        gap: 50px;
     }
     .h1 {
         text-align: center;
@@ -38,7 +45,7 @@ body{
     color: #096e37;
 }
 .carousel-home{
-    width: 85%;
+    width: 100%; /*85%*/
 }
 .carousel-inner img{
     border-radius: 12px;
@@ -49,9 +56,9 @@ body{
 
 .container{
     display: flex;
-    min-height: 100vh;
+    min-height: fit-content;
     align-items: center;
-    padding: 100px;
+    padding: 80px;
 }
 .accordion-collapse {
     transition: height 0.4s ease-in-out, opacity 0.4s ease-in-out;
@@ -175,6 +182,11 @@ footer {
 footer p{
     padding-top: 20%;
 }
+.btn:hover{
+    background-color: #017531 !important;
+    color: white;
+}
+
 
 @media screen and (max-width: 768px) {
 
@@ -210,14 +222,17 @@ footer p{
         text-align: center;
         position: static;
         height: fit-content;
+
     }
     #meuContainer{
-        height: 70vh;
+        margin-bottom: 50px;
+        height: fit-content;
         display: flex;
         align-items: center; 
         justify-content: stretch;
-        padding: 10px;
-    }
+        padding: 50px;
+        gap: 50px;
+        flex-direction: column;    }
     .card{
         width: 90vw;
     }
@@ -229,5 +244,28 @@ footer p{
    .contact{
     justify-content: center;
    }
+   #meuContainer{
+    padding: 50px;
+    gap: 20px;
+    flex-direction: column;
+
+   }
+    
+   }
+   @media screen and (min-width: 1500px) {
+    #meuContainer{
+        padding: 200px;
+        gap: 30px;
+        }
+        .h1 h1 {
+            font-size: 1.8em;
+        }
+    
+        .h1 p {
+            font-size: 0.5em;
+        }
+        
+            
+        
+    }
    
-}
